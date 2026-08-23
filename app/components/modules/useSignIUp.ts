@@ -7,7 +7,7 @@ const signInSchema = Yup.object({
   email: Yup.string().email("Invalid email address").required("Email is required"),
   password: Yup.string().required("Password is required"),
 });
-
+//never giveup
 const signUpSchema = Yup.object({
   username: Yup.string()
     .min(3, "Username must be at least 3 characters")
